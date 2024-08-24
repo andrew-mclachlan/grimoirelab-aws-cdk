@@ -1,6 +1,6 @@
 # Running GrimoireLab with AWS Fargate
 
-In this folder are configuration files for deploying GrimoireLab using [AWS](https://aws.amazon.com). You will need a functional AWS account and you should be able to deploy that AWS account. This setup uses [AWS Fargate](https://aws.amazon.com/fargate) with a Network Load Balancer.
+In this folder are configuration files for deploying [GrimoireLab](https://chaoss.github.io/grimoirelab/) using [AWS](https://aws.amazon.com). You will need a functional AWS account and you should be able to deploy that AWS account. This setup uses [AWS Fargate](https://aws.amazon.com/fargate) with a Network Load Balancer.
 
 ## Requirements
 
@@ -82,3 +82,4 @@ Visit the AWS Load balancers website, select grimoire-nlb, and visit the DNS nam
 
 1. Setup RDS in place of mariadb service.
 2. Setup EFS to store configuration files and store indices.
+3. Integrate into CI/CD workflow for GrimoireLab deployment.
